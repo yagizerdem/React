@@ -1,0 +1,27 @@
+input{
+    margin: 20px;
+    width: 45%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+span{
+    position: absolute;
+    left: 70%;
+    top :100%;
+    transform: translate(-50%,-100%);
+}
+
+@media (max-width: 700px){
+    span {
+        position: initial;
+        left: auto;
+        top:auto;
+        transform: translate(0,0);
+        margin-left:50px ;
+    }
+}
+
+
